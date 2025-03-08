@@ -4,6 +4,7 @@ import mongoose from "mongoose";
 import { userRouter } from "./routes/user.js";
 import { recipesRouter } from "./routes/recipe.js";
 
+const express = require("express");
 const app = express();
 
 app.use(express.json());
